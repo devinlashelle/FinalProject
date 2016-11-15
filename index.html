@@ -10,17 +10,24 @@
 
   <body>
 
-    <div class="header">
+    <div class="headercontainer">
 
       <div class="container">
 
-        <h3>SHAMAZON</h3>
+        <div class="header">
+          <h3>SHAMAZON</h3>
+        </div>
+
+        <div class="headericons">
+          <img src="images/icons/shoppingcart.png"/>
+          <img src="images/icons/user.png"/>
+        </div>
 
         <div class="navigation">
           <ul>
-            <li>Products</li>
-            <li>Orders</li>
-            <li>Contact</li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
 
@@ -29,12 +36,21 @@
     </div>
 
     <div class="heroimage">
-      <img src="images/MenShoes.jpg"/>
     </div>
 
-    <div class="bottomheader">
+    <div class="bottomheadercontainer">
 
-</div>
+      <div id="FormArea">
+        <div class="input">
+          <form class="Google Maps" action="https://www.google.com/maps" method="get">
+            <input type="text" placeholder="What are you shopping for today?"/>
+            <input type="submit" value="Submit"/>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
   </body>
 
 </html>
