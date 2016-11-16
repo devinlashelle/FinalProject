@@ -60,6 +60,7 @@ div.heroimage {
   background-image: url("../images/MenShoes.jpg");
   background-size: cover;
   height: 165px;
+  background-position: center;
 }
 
 div.bottomheadercontainer {
@@ -69,9 +70,8 @@ div.bottomheadercontainer {
 }
 
 
-
 #FormArea {
-  width: 465px;
+  width: 470px;
   margin: 0 auto;
   position: relative;
   top: 50%;
@@ -85,6 +85,9 @@ input[type=text] {
     font-size: 18px;
     text-indent: 15px;
     border: none;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 5px;
 }
 
 .searchbutton {
