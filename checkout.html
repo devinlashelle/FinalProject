@@ -14,29 +14,37 @@
       <div class="container">
 
         <div class="header">
+
           <h3>SHMAMAZON</h3>
+
         </div>
 
         <div class="headericons">
+
           <img src="images/icons/shoppingcart.png"/>
           <img src="images/icons/user.png"/>
+
         </div>
 
         <div class="navigation">
+
           <ul>
             <li><a href="products.html">Products</a></li>
             <li><a href="orders.html">Orders</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
+
         </div>
 
         <div class="searchcontainer">
 
           <div id="FormArea">
+
               <form class="SHMAMAZON Catalog">
                 <input type="text" placeholder="What are you shopping for today?"/>
                 <button class="searchbutton"></button>
               </form>
+
           </div>
 
         </div>
@@ -48,15 +56,21 @@
     <div class="bodycontainer">
 
       <div class="miniheader">
+
         <h4>Products > Electronics > iPhone 7</h4>
+
       </div>
 
       <div class="subheader">
+
         <h1>Checkout</h1>
+
       </div>
 
       <div class="FormContainer">
+
         <h2>1. Enter Shipping Information</h2>
+
         <form class="shippingform">
           <input type="text" name="name" placeholder="First Name">
           <input type="text" name="name" placeholder="Last Name"> <br>
@@ -66,10 +80,19 @@
       </div>
 
       <div class="FormContainer">
+
         <h2>2. Payment Method</h2>
+
         <form class="paymentcard">
-          <input type="radio" name="color" value="red">
-          <input type="radio" name="color" value="green">
+          <input type="radio" name="creditcard">
+            <img src="images/icons/creditcards/americanexpress.png"/>
+            <img src="images/icons/creditcards/mastercard.png"/>
+            <img src="images/icons/creditcards/visa.png"/>
+            <img src="images/icons/creditcards/chase.png"/>
+
+          <input type="radio" name="paypal">
+            <img src="images/icons/creditcards/paypal.png"/>
+
         </form>
 
         <form class="PaymentForm">
@@ -78,9 +101,49 @@
           <input class="shortinput" type="text" name="name" placeholder="CV Code"> <br>
 
           <label for="Card Expiration">Card Expiration</label>
-          <select class="" name="Quantity">
+          <select class="Months" name="Months">
             <option selected="selected">Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="7">August</option>
+            <option value="7">September</option>
+            <option value="7">October</option>
+            <option value="7">November</option>
+            <option value="7">December</option>
+          </select>
 
+          <select class="Years" name="Years">
+            <option selected="selected">Year</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+          </select>
+          </form>
+      </div>
+
+      <div class="FormContainer">
+
+        <h2>3. Review Items</h2>
+
+        <p>
+          iPhone 7<br>
+          Manufacturer: Apple
+        </p>
+
+        <form class="quantityform">
+          <label for="Quantity">Quantity:</label>
+          <select class="Quantity" name="Quantity">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -88,19 +151,12 @@
             <option value="5">5</option>
             <option value="6">6</option>
             <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
           </select>
-          <select class="" name="Fruits">
-            <option value="Apple">Year</option>
-            <option value="Pear">Pear</option>
-            <option value="Banana">Banana</option>
-            <option value="Orange">Orange</option>
-            <option value="Kumquat">Kumquat</option>
-            <option value="Coconut">Coconut</option>
-            <option value="Strawberry">Strawberry</option>
-          </select>
-
-          </form>
         </form>
+
       </div>
 
     </div>
