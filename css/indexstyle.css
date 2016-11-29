@@ -141,16 +141,19 @@ div.items2 {
 }
 
 div.largeimage {
- width: 320px;
  height: 100%;
+ float: left;
 }
 
-div.largeimage img{
- width: 100%;
- height: 100%
+div.largeimage img {
+  height: 100%;
 }
 
-div.smallimage{
+div.smallimage {
+
+}
+
+div.smallimage img {
 
 }
 
@@ -158,4 +161,35 @@ div.footercontainer {
   width: 100%;
   height:140px;
   background-color: #305673;
+}
+
+div.footercontainer h3 {
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+
+p.footer {
+  font-family: Bodoni 72 Smallcaps;
+  font-size: 34px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+p.footernotes {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+p.copyright {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
 }

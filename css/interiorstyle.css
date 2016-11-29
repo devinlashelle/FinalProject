@@ -214,17 +214,26 @@ select.Years {
   margin-left: 16px;
 }
 
+div.product {
+  height: 125px;
+  width: 100%;
+  margin-left: 81px;
+}
+
 p {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 0px;
   color: #000000;
-  margin-left: 280px;
+  margin-right: 270px;
+  float: right;
 }
 
 .quantityform {
-    margin-left: 280px;
+  float: right;
+  margin-right: 200px;
+  margin-top: -65px;
 }
 
 select.Quantity {
@@ -257,8 +266,20 @@ div.ordercontainer {
     color: #000000;
 }
 
-div.cart {
+p.order {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-right: 0px;
+}
 
+div.cart {
+ height: 60px;
+}
+
+div.cart hr {
+  width: 214px;
 }
 
 p.items {
@@ -266,7 +287,7 @@ p.items {
   font-weight: lighter;
   font-size: 12px;
   margin: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   float: left;
   text-align: left;
 }
@@ -277,15 +298,80 @@ p.prices {
   font-size: 12px;
   padding-left: 52px;
   margin: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   float: left;
   text-align: right;
 }
 
-p.order {
+div.total {
+  height: 30px;
+}
+
+p.total {
+  font-family: helvetica;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  float: left;
+  text-align: left;
+}
+
+p.totalprice {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #ac2d24;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+p.delivery {
+  width: 125px;
   font-family: helvetica;
   font-weight: lighter;
   font-size: 12px;
-  margin-top: 12px;
-  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 88px
+}
+
+div.footercontainer {
+  width: 100%;
+  height:140px;
+  background-color: #305673;
+}
+
+div.footercontainer h3 {
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+
+p.footer {
+  font-family: Bodoni 72 Smallcaps;
+  font-size: 34px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+p.footernotes {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 10px;
+  float: left;
+}
+
+p.copyright {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  float: left;
 }
