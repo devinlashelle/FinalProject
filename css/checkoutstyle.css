@@ -99,13 +99,6 @@ div.miniheader h4 {
   color: #000000;
 }
 
-div.checkoutcontainer {
-  width: 640px;
-  float: left;
-  margin-top: 20px;
-  margin-right: 180px;
-}
-
 div.subheader h1 {
   font-family: helvetica;
   font-weight: lighter;
@@ -113,6 +106,13 @@ div.subheader h1 {
   margin-left: 40px;
   margin-top: 0;
   color: #305673;
+}
+
+div.checkoutcontainer {
+  width: 640px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 180px;
 }
 
 div.FormContainer {
