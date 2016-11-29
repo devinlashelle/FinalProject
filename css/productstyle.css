@@ -87,7 +87,7 @@ div.searchcontainer {
 
 div.bodycontainer {
   width: 100%;
-  height: 994px;
+  height: 804px;
 }
 
 div.miniheader h4 {
@@ -123,13 +123,11 @@ div.largeimage {
 }
 
 div.productdetails {
-  height: 380px;
   width: 300px;
-  margin-left: 20px;
+  margin-left: 120px;
   padding-bottom: 20px;
   float: left;
   margin-top: 20px;
-  margin-right: 10px;
 }
 
 div.productdetails h1 {
@@ -152,14 +150,87 @@ ul.details {
   margin-left: -22px;
 }
 
+div.cartcontainer {
+  height: 380px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+}
 
-div.addtocart {
+.addbutton {
+    width: 214px;
+    height: 45px;
+    background-color: #e4b833;
+    border: none;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000000;
+}
 
+div.total {
+  height: 30px;
+  margin-top: 20px;
+}
+
+p.price {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-right: 78px;
+  float: left;
+  text-align: left;
+}
+
+p.totalprice {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #22881d;
+  margin: 0px;
+}
+
+div.productstatus {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+p.status {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-right: 78px;
+  float: left;
+  text-align: left;
+}
+
+p.stock {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #22881d;
+  margin: 0px;
+  margin-left: -11px;
+  float: left;
+}
+
+div.protectionplan {
+  margin-bottom: 20px;
+}
+
+div.delivery {
+  width: 125px;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-right: 88px
 }
 
 div.moreitems {
-  width: 100%;
-  margin-left: 40px;
+  float: left;
 }
 
 div.moreitems h1 {
@@ -172,7 +243,15 @@ div.moreitems h1 {
   color: #305673;
 }
 
+div.deals {
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
+div.deals img {
+  padding-right: 20px;
+}
 
 div.footercontainer {
   width: 100%;
@@ -196,7 +275,6 @@ p.footer {
 }
 
 p.footernotes {
-  width: 100%;
   font-family: helvetica;
   font-weight: lighter;
   font-size: 14px;
@@ -214,4 +292,5 @@ p.copyright {
   color: #ffffff;
   text-align: center;
   float: left;
+  margin-top: 0;
 }
