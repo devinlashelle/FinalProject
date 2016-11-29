@@ -69,7 +69,6 @@ div.searchcontainer {
   background-color: #305673;
 }
 
-
 #FormArea {
   width: 470px;
   margin: 0 auto;
@@ -115,46 +114,40 @@ div.subheader h1 {
   color: #305673;
 }
 
-div.featureditems{
- height: 560px;
- margin-left: 40px;
- margin-right: 20px;
- background-color: red;
-}
-
 div.items {
-  width: 48%;
-  height: 274px;
-  background-color: yellow;
+  height: 320px;
   float: left;
-  margin-right: 2%;
-  margin-bottom: 20px;
+  margin-left: 90px;
 }
 
 div.items2 {
-  width: 48%;
-  height: 274px;
-  background-color: yellow;
+  height: 320px;
+  float: right;
+  margin-right: 140px;
+}
+
+div.smallimages {
+  width: 140px;
   float: left;
-  margin-left: 2%;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+div.smallimages img {
+  padding-bottom: none;
+}
+
+div.largeimage {
+  width: 320px;
+  margin-left: 40px;
+  padding-bottom: 20px;
+  float: left;
+  margin-top: 20px;
 }
 
 div.largeimage {
  height: 100%;
  float: left;
-}
-
-div.largeimage img {
-  height: 100%;
-}
-
-div.smallimage {
-
-}
-
-div.smallimage img {
-
 }
 
 div.footercontainer {
