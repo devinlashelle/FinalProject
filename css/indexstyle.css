@@ -114,16 +114,37 @@ div.subheader h1 {
   color: #305673;
 }
 
+div.featureditems {
+  width: 1020px;
+  height: 700px;
+  margin: 0 auto;
+}
+
 div.items {
   height: 320px;
   float: left;
-  margin-left: 90px;
 }
 
 div.items2 {
   height: 320px;
   float: right;
-  margin-right: 140px;
+}
+
+div.banner {
+  width: 230px;
+  height: 50px;
+  background-color: rgba(48, 86, 115, 0.6);
+  position: absolute;
+  margin-top: 20px;
+}
+
+div.banner h3 {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 15px;
 }
 
 div.smallimages {
@@ -134,21 +155,45 @@ div.smallimages {
 }
 
 div.smallimages img {
-  padding-bottom: none;
+  display: block;
 }
 
 div.largeimage {
   width: 320px;
+  height: 100%;
   margin-left: 40px;
   padding-bottom: 20px;
   float: left;
   margin-top: 20px;
 }
 
-div.largeimage {
- height: 100%;
- float: left;
+div.largeimage img {
+  display: block;
 }
+
+div.dailydeals {
+  float: left;
+}
+
+div.dailydeals h1 {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 31px;
+  margin-left: 40px;
+  margin-top: 0;
+  color: #305673;
+}
+
+div.deals {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div.deals img {
+  padding-right: 20px;
+}
+
 
 div.footercontainer {
   width: 100%;
